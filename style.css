@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.instrument-serif-regular {
+  font-family: "Instrument Serif", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.instrument-serif-regular-italic {
+  font-family: "Instrument Serif", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+
+.instrument-sans {
+  font-family: "Instrument Sans", sans-serif;
+  font-style: normal;
+ 
+}
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
