@@ -3,8 +3,15 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon"
-    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='80' font-size='80'>🍁</text></svg>" />
+  
+ <!-- PNG format (for modern browsers) -->
+ <link rel="icon" type="image/png" href="favicon.png" />
+  
+ <!-- ICO format (for legacy browsers) -->
+ <link rel="icon" href="favicon.ico" />
+ 
+ <!-- Apple touch icon (for iOS) -->
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Amarpreet Singh</title>
   <meta name="description"
@@ -52,45 +59,53 @@
 <body class="inter bg-neutral-100 text-neutral-950 max-h-screen dark:bg-neutral-950 dark:text-neutral-100">
 
 
-  <main class="max-w-[500px] mx-auto my-0 flex-grow flex flex-col pt-12 h-full">
+  <main class="px-8 sm:w-[500px] mx-auto my-0 flex-grow flex flex-col pt-12 h-full">
     <div class="flex flex-col gap-y-8 flex-grow">
-      <h1 class="text-4xl instrument-serif-regular">Amarpreet Singh</h1>
+      <h1 class="text-4xl instrument-serif-regular ">Amarpreet Singh</h1>
       <p class="text-md">
         I'm a designer & developer based in Toronto.
       </p>
-      <p class="text-md ">
-        I'm an open-source contributor to GitHub's
-        <a href="https://primer.style/guides/react" class="underline">Primer React</a>
-        project, where I develop React components for the Primer design
-        system. I also take on freelance projects, design and development
-        solutions for clients across Canada.
+      <p class="text-md">
+        Currently building <a href="" class="text-blue-600 font-medium ">SplitbyAI</a>
       </p>
+      <p class="text-md ">
+        On side I'm an open-source contributor to gitHub's
+        <a href="https://primer.style/guides/react">[primer react]</a>
+        project, where I develop React components for the Primer design
+        system. 
+      </p>
+      <!-- <p>I also take on freelance projects, design and development
+        solutions for clients across Canada.</p> -->
       <p class="text-md ">
         In my spare time, I love hanging out at cafes and coding. Let’s collaborate—drop me an <a
-          class="underline cursor-pointer">email</a>, and we can code together over a cup of coffee!
+          class=" cursor-pointer" href="mailto:amar.manhala@gmail.com">[email]</a>, and we can code together over a cup of coffee!
 
       </p>
 
-      <div>
+      <div class="mt-8">
         <h3 class="instrument-serif-regular text-2xl">Let's connect</h3>
         <ul class="flex space-x-4 pt-3 text-sm ">
-          <li class="underline"><a class="cursor-pointer">Email</a></li>
+          <li class=""><a class="cursor-pointer" href="mailto:amar.manhala@gmail.com">[email]</a></li>
 
-          <li><a class="cursor-pointer underline">Github</a></li>
-          <li><a class="cursor-pointer underline">X (Twitter)</a></li>
-          <li><a class="cursor-pointer underline">LinkedIn</a></li>
+          <li><a class="cursor-pointer hover:text-blue-600" href="https://github.com/amarmanhala" target="_blank">[github]</a></li>
+          <li><a class="cursor-pointer " href="https://x.com/amarsinghca" target="_blank">[x]</a></li>
+          <li><a class="cursor-pointer " href="https://www.linkedin.com/in/hyumanamar/" target="_blank">[linkedin]</a></li>
 
-          <li><a class="cursor-pointer underline">Download Resume</a></li>
+          <li><a class="cursor-pointer ">[resume]</a></li>
+          <li><a class="cursor-pointer " href="/rss.xml">[rss]</a></li>
         </ul>
       </div>
 
-      <div>
-        <iframe style="border-radius:12px"
-          src="https://open.spotify.com/embed/track/1BxfuPKGuaTgP7aM0Bbdwr?utm_source=generator&theme=0" width="100%"
-          height="152" frameBorder="0" allowfullscreen=""
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      
+
+      <div class="flex items-center space-x-6 mt-6">
+        <img src="horse.png" alt="A beautiful horse" width="150" height="150" class="rounded-lg dark:border-neutral-800 border-4 border-neutral-300 " />
+        <blockquote class="instrument-serif-regular">
+          A horse is poetry in motion.
+          <footer>— Victoria Prescott</footer>
+        </blockquote>
       </div>
-      <footer class="text-sm pt-2">This site is built without framework</footer>
+     
   </main>
 
 </body>

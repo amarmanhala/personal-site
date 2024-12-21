@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Amarpreet Singh Portfolio</title>
+    <link>https://amarpreet.xyz</link>
+    <description>
+      Explore the portfolio of Amarpreet Singh, a skilled software engineer and designer based in Toronto, specializing in web development, design systems, and open-source contributions.
+    </description>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Dec 2024 10:00:00 GMT</lastBuildDate>
+    <pubDate>Sat, 21 Dec 2024 10:00:00 GMT</pubDate>
+    
+    <!-- Example Project 1 -->
+    <item>
+      <title>SplitbyAI - Simplifying AI Solutions</title>
+      <link>https://amarpreet.xyz/projects/splitbyai</link>
+      <description>
+        Currently building SplitbyAI, a project focused on simplifying AI solutions for real-world applications.
+      </description>
+      <pubDate>Sat, 21 Dec 2024 09:00:00 GMT</pubDate>
+      <guid>https://amarpreet.xyz/projects/splitbyai</guid>
+    </item>
+    
+    <!-- Example Contribution -->
+    <item>
+      <title>Open Source Contributions to Primer React</title>
+      <link>https://primer.style/guides/react</link>
+      <description>
+        Contributing React components to GitHub's Primer Design System, enhancing developer tools and UI libraries.
+      </description>
+      <pubDate>Fri, 20 Dec 2024 15:00:00 GMT</pubDate>
+      <guid>https://primer.style/guides/react</guid>
+    </item>
+    
+    <!-- Example Personal Update -->
+    <item>
+      <title>Coding at Cafes in Toronto</title>
+      <link>https://amarpreet.xyz/blog/coding-at-cafes</link>
+      <description>
+        Read about my favorite coding spots in Toronto, where creativity and coffee flow together.
+      </description>
+      <pubDate>Thu, 19 Dec 2024 18:00:00 GMT</pubDate>
+      <guid>https://amarpreet.xyz/blog/coding-at-cafes</guid>
+    </item>
+
+  </channel>
+</rss>

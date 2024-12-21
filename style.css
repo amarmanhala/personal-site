@@ -33,3 +33,8 @@
   font-weight: 300;
   font-style: normal;
 }
+a {
+  &:hover {
+    color: var(--tw-color-blue-600) !important;
+  }
+}
